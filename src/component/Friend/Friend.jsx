@@ -3,7 +3,6 @@ import './Friend.css';
 import { Link } from 'react-router-dom';
 
 const Friend = ({friend}) => {
-    console.log(friend);
     const {id, name, phone, email} = friend;
 
     return (
